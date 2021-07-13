@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFppFDvqiUaJ7sTz8oG52mBSWc4E_PCj6FA&usqp=CAU" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="bouquets_types.html" id="navbardrop" data-toggle="dropdown">
+      Bouquets Types
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="type1.html">Fresh Flower Bouquet</a>
+        <a class="dropdown-item" href="type2.html">Bouquet of roses</a>
+        <!-- <a class="dropdown-item" href="#">Link 3</a> -->
+      </div>
+    </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="img_gallery.html">Gallery 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="img_gallery2.html">Gallery 2</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <h3 class="bg-secondary text-white">Flower Bouquets for online delivery in Sri Lanka</h3>
+    <p>Looking for a Flower Bouquet to send to your loved once in Sri Lanka? Select from bouquet of roses, bouquet of mixed flowers or bouquet of orchids. Don't consider it just a bunch of flowers as Rossy will always put super hard effort to make sure every arrangement is attended personally by a profetional florist</p>
+  </div>
+  <!-- Carousel wrapper -->
+  <div
+    id="carouselBasicExample"
+    class="carousel slide carousel-fade"
+    data-mdb-ride="carousel"
+  >
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img
+          src="https://cdn.luxe.digital/media/2019/12/16125450/best-online-flower-delivery-teleflora-bouquet-luxe-digital.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>With Free Delivery</h5>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img
+          src="https://cdn.luxe.digital/media/2019/12/16125439/best-online-flower-delivery-ftd-luxe-digital.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img
+          src="https://cdn.luxe.digital/media/2019/12/16104419/best-online-flower-delivery-fleurs-de-paris-luxe-digital.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div>
+  </div>
+  <!-- Carousel wrapper -->
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>We make people smile</p>
+    <p>ANYWHERE, ANYTIME</p>
+    <p>Surprises that arrive at the perfect time</p>
+    <p>The Best Flower Delivery Services for Every Occasion
+</p>
+  </div>
+</body>
+</html>
